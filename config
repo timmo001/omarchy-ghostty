@@ -50,4 +50,7 @@ shell-integration-features = true
 keybind = shift+enter=text:\x1b\r
 
 # Slowdown mouse scrolling
-mouse-scroll-multiplier = 0.95
+mouse-scroll-multiplier = 2.0
+
+# Fix general slowness on hyprland (https://github.com/ghostty-org/ghostty/discussions/3224)
+async-backend = epoll
