@@ -26,7 +26,6 @@ resize-overlay = never
 # Cursor styling
 cursor-style = "block"
 cursor-style-blink = false
-shell-integration-features = no-cursor
 
 # Keyboard bindings
 keybind = f11=toggle_fullscreen
@@ -44,7 +43,7 @@ keybind = global:super+backquote=toggle_quick_terminal
 
 # Shell
 # shell-integration = zsh
-shell-integration-features = true
+shell-integration-features = no-cursor,ssh-env,title,no-sudo,no-ssh-terminfo,path
 
 # working-directory = /home/aidan
 keybind = shift+enter=text:\x1b\r
