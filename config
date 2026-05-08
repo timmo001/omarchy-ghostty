@@ -4,7 +4,7 @@ config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
 # Theme
 font-family = "JetBrainsMono Nerd Font"
 font-style = Regular
-font-size = 8
+font-size = 10
 background-opacity = 0.85
 # background-blur-radius = 20
 window-padding-x = 24,12
