@@ -16,6 +16,7 @@ window-theme= ghostty
 window-decoration = auto
 window-title-font-family = "JetBrainsMono Nerd Font"
 gtk-titlebar = false
+gtk-custom-css = "~/.config/ghostty/tabs.css"
 # gtk-adwaita = true
 adw-toolbar-style = flat
 window-padding-x = 14
